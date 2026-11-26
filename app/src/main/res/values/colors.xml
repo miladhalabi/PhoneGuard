@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Material 3 color roles, generated from seed #415F91. Night values live in values-night. -->
+<resources>
+    <color name="md_primary">#415F91</color>
+    <color name="md_onPrimary">#FFFFFF</color>
+    <color name="md_primaryContainer">#D6E3FF</color>
+    <color name="md_onPrimaryContainer">#284777</color>
+    <color name="md_secondary">#565F71</color>
+    <color name="md_onSecondary">#FFFFFF</color>
+    <color name="md_secondaryContainer">#DAE2F9</color>
+    <color name="md_onSecondaryContainer">#3E4759</color>
+    <color name="md_tertiary">#705575</color>
+    <color name="md_onTertiary">#FFFFFF</color>
+    <color name="md_tertiaryContainer">#FAD8FD</color>
+    <color name="md_onTertiaryContainer">#573E5C</color>
+    <color name="md_error">#BA1A1A</color>
+    <color name="md_onError">#FFFFFF</color>
+    <color name="md_errorContainer">#FFDAD6</color>
+    <color name="md_onErrorContainer">#93000A</color>
+    <color name="md_background">#F9F9FF</color>
+    <color name="md_onBackground">#191C20</color>
+    <color name="md_surface">#F9F9FF</color>
+    <color name="md_onSurface">#191C20</color>
+    <color name="md_surfaceVariant">#E0E2EC</color>
+    <color name="md_onSurfaceVariant">#44474E</color>
+    <color name="md_outline">#74777F</color>
+    <color name="md_outlineVariant">#C4C6D0</color>
+    <color name="md_inverseSurface">#2E3036</color>
+    <color name="md_inverseOnSurface">#F0F0F7</color>
+    <color name="md_inversePrimary">#AAC7FF</color>
+    <color name="md_surfaceContainerLowest">#FFFFFF</color>
+    <color name="md_surfaceContainerLow">#F3F3FA</color>
+    <color name="md_surfaceContainer">#EDEDF4</color>
+    <color name="md_surfaceContainerHigh">#E7E8EE</color>
+    <color name="md_surfaceContainerHighest">#E2E2E9</color>
+
+    <!-- Custom "success" role, same tonal structure as the others. -->
+    <color name="success">#3B6939</color>
+    <color name="onSuccess">#FFFFFF</color>
+    <color name="successContainer">#BCF0B4</color>
+    <color name="onSuccessContainer">#235024</color>
+
+    <color name="launcher_background">#415F91</color>
+</resources>

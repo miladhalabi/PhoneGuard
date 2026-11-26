@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Phone Guard</string>
+    <string name="admin_description">Lets a text message with your secret PIN lock this phone\'s screen.</string>
+
+    <!-- Status card -->
+    <string name="hero_done_title">You\'re protected</string>
+    <string name="hero_done_any">Text LOC and your PIN to this phone from any phone to find it.</string>
+    <string name="hero_done_trusted">Text LOC and your PIN to this phone from a trusted number to find it.</string>
+    <string name="hero_todo_title">Finish setup</string>
+    <plurals name="hero_steps_left">
+        <item quantity="one">1 step left · Next: %2$s</item>
+        <item quantity="other">%1$d steps left · Next: %2$s</item>
+    </plurals>
+
+    <!-- Sections -->
+    <string name="section_setup">Setup</string>
+    <string name="section_pin">Secret PIN</string>
+    <string name="section_senders">Trusted numbers</string>
+    <string name="section_alerts">Alerts</string>
+    <string name="section_lost_screen">Lost screen</string>
+    <string name="section_commands">Commands</string>
+    <string name="section_test">Try it</string>
+
+    <!-- Setup steps -->
+    <string name="step_sms">Phone &amp; messages</string>
+    <string name="step_sms_desc">Receive commands, reply, call you back, notice a new SIM</string>
+    <string name="step_location">Location</string>
+    <string name="step_location_desc">Find where the phone is</string>
+    <string name="step_background">Location all the time</string>
+    <string name="step_background_desc">Choose \"Allow all the time\" so it works with the screen off</string>
+    <string name="step_admin">Lock permission</string>
+    <string name="step_admin_desc">Lets a command lock the screen and spot wrong unlock attempts</string>
+    <string name="step_battery">Battery optimization</string>
+    <string name="step_battery_desc">Stops the system from putting the app to sleep</string>
+    <string name="step_screen_lock">Screen lock</string>
+    <string name="step_screen_lock_desc">Set a PIN or pattern, otherwise locking does nothing</string>
+    <string name="step_autostart">Autostart</string>
+    <string name="step_autostart_desc">Xiaomi blocks apps without it. Turn it on for Phone Guard. Can\'t be checked automatically.</string>
+    <string name="step_fullscreen">Lost screen</string>
+    <string name="step_fullscreen_desc">Lets the lost message appear over the lock screen</string>
+    <string name="step_pin">Secret PIN</string>
+    <string name="step_trusted">Trusted number</string>
+
+    <string name="action_allow">Allow</string>
+    <string name="action_enable">Enable</string>
+    <string name="action_set_up">Set up</string>
+    <string name="action_open">Open</string>
+    <string name="cd_done">Done</string>
+
+    <!-- PIN -->
+    <string name="pin_set_title">PIN is set</string>
+    <string name="pin_set_desc">You\'ll type it after every command</string>
+    <string name="pin_change">Change</string>
+    <string name="pin_hint">PIN</string>
+    <string name="pin_helper">At least 4 digits</string>
+    <string name="pin_confirm_hint">Confirm PIN</string>
+    <string name="pin_save">Save PIN</string>
+    <string name="cancel">Cancel</string>
+    <string name="err_pin_short">Use at least 4 digits</string>
+    <string name="err_pin_mismatch">PINs don\'t match</string>
+    <string name="msg_pin_saved">PIN saved</string>
+
+    <!-- Senders -->
+    <string name="senders_any">Any number</string>
+    <string name="senders_trusted">Trusted only</string>
+    <string name="trusted_intro">Alerts are sent to these numbers. Add your second phone or someone you trust.</string>
+    <string name="senders_label">Accept commands from</string>
+    <string name="senders_any_help">Anyone who knows your PIN can send commands. Easiest if you lose your phone and have to borrow one.</string>
+    <string name="senders_trusted_help">Only the numbers above are accepted, even with the right PIN. Safer, because the command (and your PIN) stays visible in the stolen phone\'s messages.</string>
+    <string name="senders_empty">No numbers yet. Add at least one to receive alerts.</string>
+    <string name="add_number_hint">Phone number</string>
+    <string name="cd_add_number">Add number</string>
+    <string name="pick_contact">Pick from contacts</string>
+    <string name="err_number_invalid">Enter a full phone number</string>
+    <string name="err_number_duplicate">Already in the list</string>
+    <string name="msg_number_removed">Removed %1$s</string>
+    <string name="undo">Undo</string>
+
+    <!-- Commands -->
+    <string name="cmd_loc">LOC 1234</string>
+    <string name="cmd_loc_desc">Replies with a Google Maps link, accuracy and battery level</string>
+    <string name="cmd_lock">LOCK 1234</string>
+    <string name="cmd_lock_desc">Locks the screen</string>
+    <string name="lock_reply_label">Reply to LOCK</string>
+    <string name="lock_reply_none">No reply</string>
+    <string name="lock_reply_locked">Locked</string>
+    <string name="lock_reply_location">Location</string>
+    <string name="cmd_alarm">ALARM 1234</string>
+    <string name="cmd_alarm_desc">Locks the screen and rings at full volume for 3 minutes, even on silent. Stops when the phone is unlocked.</string>
+    <string name="cmd_stop">STOP 1234</string>
+    <string name="cmd_stop_desc">Stops the alarm and tracking, and ends lost mode</string>
+    <string name="cmd_track">TRACK 1234</string>
+    <string name="cmd_track_desc">Texts the location every 10 minutes for 2 hours</string>
+    <string name="cmd_call">CALL 1234</string>
+    <string name="cmd_call_desc">The phone calls you back, so you can hear what\'s around it</string>
+    <string name="cmd_info">INFO 1234</string>
+    <string name="cmd_info_desc">Battery, SIM, network, and whether lost mode or tracking is on</string>
+    <string name="cmd_footnote">Replace 1234 with your PIN. Arabic works too: ⁨موقع⁩, ⁨قفل⁩, ⁨صفارة⁩, ⁨وقف⁩, ⁨تتبع⁩, ⁨اتصل⁩, ⁨معلومات⁩. Wrong PINs get no reply, and 5 wrong tries pause commands for 30 minutes.</string>
+
+    <!-- Alerts -->
+    <string name="alert_sim">New SIM inserted</string>
+    <string name="alert_sim_desc">Texts your trusted numbers from the new SIM, so you see its number, plus the location</string>
+    <string name="alert_unlock">Wrong unlock attempts</string>
+    <string name="alert_unlock_desc">After 3 wrong PIN or pattern tries, texts your trusted numbers the location</string>
+    <string name="alert_battery">Battery about to die</string>
+    <string name="alert_battery_desc">In lost mode, texts one last location when the battery drops to 10%</string>
+
+    <!-- Lost mode -->
+    <string name="lost_banner_title">Lost mode is on</string>
+    <string name="lost_banner_since">Since %1$s</string>
+    <string name="lost_banner_tracking">Since %1$s · Tracking, %2$d updates left</string>
+    <string name="lost_turn_off">Turn off</string>
+    <string name="msg_lost_off">Lost mode turned off</string>
+    <string name="lost_screen_toggle">Show a message on the lock screen</string>
+    <string name="lost_screen_desc">After LOCK or ALARM, so an honest finder can return the phone</string>
+    <string name="lost_message_hint">Message</string>
+    <string name="lost_contact_hint">Number to call</string>
+    <string name="lost_contact_helper">Leave empty to use your first trusted number</string>
+    <string name="lost_preview">Preview</string>
+    <string name="lost_channel">Lost phone</string>
+    <string name="lost_title">This phone is lost</string>
+    <string name="lost_owner">I\'m the owner</string>
+
+    <!-- Test -->
+    <string name="test_desc">See the exact reply a command would send, without sending an SMS.</string>
+    <string name="test_button">Test location</string>
+    <string name="test_again">Test again</string>
+    <string name="test_locating">Locating…</string>
+    <string name="open_maps">Open in Maps</string>
+
+    <!-- Snackbars -->
+    <string name="msg_need_location">Allow location first</string>
+    <string name="msg_denied">Permission denied. You can allow it in Settings.</string>
+    <string name="open_settings">Settings</string>
+
+    <!-- Foreground service notification -->
+    <string name="notif_channel">Protection</string>
+    <string name="notif_title">Updating…</string>
+</resources>
