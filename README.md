@@ -9,6 +9,7 @@ Text your phone from any other phone and it texts back its location, locks the s
   <img alt="Language" src="https://img.shields.io/badge/Kotlin-2.0-7F52FF?logo=kotlin&logoColor=white">
   <img alt="Target SDK" src="https://img.shields.io/badge/targetSdk-35-blue">
   <img alt="Sideload only" src="https://img.shields.io/badge/install-sideload%20only-orange">
+  <a href="https://github.com/miladhalabi/PhoneGuard/releases/latest"><img alt="Download APK" src="https://img.shields.io/badge/download-APK-brightgreen"></a>
 </p>
 
 ## Why SMS?
@@ -72,7 +73,7 @@ flowchart LR
 ## Setup
 
 1. **Install the app**
-   - Copy `PhoneGuard.apk` to the phone and open it (allow installs from unknown sources), or
+   - Download `PhoneGuard.apk` from the [latest release](https://github.com/miladhalabi/PhoneGuard/releases/latest) and open it on the phone (allow installs from unknown sources), or use the copy in the repo root, or
    - over USB: `adb install PhoneGuard.apk`
 2. **Open the app and complete every ✅ step**
    - Phone & messages permission (receive, send, read phone state, call)
